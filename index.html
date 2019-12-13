@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,10 +9,41 @@
     <link rel="stylesheet" href="css/estilos.css">
     <title>Document</title>
 </head>
+
 <body>
+    <div class="contenedor">
+        <section class="tarjeta" id="tarjeta">
+            <div class="delantera">
+                <div class="logo-marca">
+                    <img src="img/logos/visa.png" alt="">
+                </div>
+                <img src="img/chip-tarjeta.png" class="chip" alt="">
+                <div class="datos">
+                    <div class="grupo" id="numero">
+                        <p class="label">Número Tarjeta</p>
+                        <p class="numero">#### #### #### ####</p>
+                    </div>
+                    <div class="flexbox">
+                        <div class="grupo" id="nombre"></div>
+                        <p class="label">Nombre Tarjeta</p>
+                        <p class="nombre">John Doe</p>
+                    </div>
+                    <div class="grupo" id="expiracion">
+                        <p class="label">Expiración</p>
+                        <p class="expiracion">
+                            <span class="mes">MM</span> /
+                            <span class="year">AA</span>
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </div>
 
 
     <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
 </body>
+
 </html>
